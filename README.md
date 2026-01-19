@@ -9,7 +9,6 @@ Repository for the main project of the Software Engineering 2 (2024) course at P
 [![Express](https://img.shields.io/badge/Express-4.19.2-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
 [![PostGIS](https://img.shields.io/badge/PostGIS-17--3.5-008000?style=flat&logo=postgresql&logoColor=white)](https://postgis.net/)
 
-
 <img src="Screenshots/homepage.png" alt="screen_homepage" style="zoom:50%;" />
 
 <img src="Screenshots/map.png" alt="screen_map" style="zoom: 50%;" />
@@ -35,9 +34,15 @@ The project serves as a "hypertext of stories," linking legal documents, archite
 - **Traceability of Consequences**: Visualize direct and collateral consequences between nodes, such as how a deformation forecast leads to a specific municipal agreement or a demolition action.
 - **Multi-Stakeholder Support**: Tailored for Urban Planners (detailed planning), Residents (assessing personal impact), and Visitors (learning the history).
 
-### Development & Quality Assurance
+### Technology Stack
 
-While the primary stack is visible in the repository tags, the project leverages a robust software engineering infrastructure:
+* **Backend**: Typescript, Node.JS, Express
+* **Frontend**: React (SPA), TypeScript, Leaflet (map), Vite.
+* **Data Persistence**: PostGIS (PostgreSQL with support for geospatial data).
+* **Infrastructure**: Docker, Docker Compose.
+* **Testing**: Jest.
+
+### Development & Quality Assurance
 
 - **Containerization**: Fully deployable via Docker, ensuring that the entire environment (including database and instructions) is cross-platform compatible.
 - **Quality & Debt Management**: Continuous code analysis performed via SonarCloud to track technical debt and ensure code maintainability.
