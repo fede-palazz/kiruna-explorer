@@ -9,8 +9,6 @@ Repository for the main project of the Software Engineering 2 (2024) course at P
 [![Express](https://img.shields.io/badge/Express-4.19.2-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
 [![PostGIS](https://img.shields.io/badge/PostGIS-17--3.5-008000?style=flat&logo=postgresql&logoColor=white)](https://postgis.net/)
 
-[![Static Badge](https://img.shields.io/badge/View_on_DockerHub-white?style=for-the-badge&logo=docker&logoSize=auto)](https://hub.docker.com/repository/docker/fpalazz/se2-24-14-kiruna-explorer/general)
-
 
 <img src="Screenshots/homepage.png" alt="screen_homepage" style="zoom:50%;" />
 
@@ -23,6 +21,27 @@ Repository for the main project of the Software Engineering 2 (2024) course at P
 <img src="Screenshots/list.png" alt="screen_doc_list" style="zoom:50%;" />
 
 <img src="Screenshots/diagram.png" alt="screen_diagram" style="zoom:50%;" />
+
+## Introduction
+
+Kiruna eXplorer is a specialized web application designed to document, map, and visualize the unprecedented relocation of the city of Kiruna, Sweden. Due to the expansion of the Kiirunavaara mine, the world's largest underground iron ore mine, the city is undergoing a massive urban metamorphosis between 2004 and 2035 to avoid the expanding landslide and deformation zones.
+
+The project serves as a "hypertext of stories," linking legal documents, architectural plans, and material effects (demolition, moving, and construction) to help stakeholders understand the city's evolution.
+
+ ### Core Functionalities
+
+- **Interactive Spatial Mapping**: Georeference documents and urban actions directly on a satellite map to study their relationship with the territory.
+- **The Cartesian Diagram**: A unique UI component that organizes documents and material effects on a time-scale axis, visualizing the "urban metamorphosis" process.
+- **Traceability of Consequences**: Visualize direct and collateral consequences between nodes, such as how a deformation forecast leads to a specific municipal agreement or a demolition action.
+- **Multi-Stakeholder Support**: Tailored for Urban Planners (detailed planning), Residents (assessing personal impact), and Visitors (learning the history).
+
+### Development & Quality Assurance
+
+While the primary stack is visible in the repository tags, the project leverages a robust software engineering infrastructure:
+
+- **Containerization**: Fully deployable via Docker, ensuring that the entire environment (including database and instructions) is cross-platform compatible.
+- **Quality & Debt Management**: Continuous code analysis performed via SonarCloud to track technical debt and ensure code maintainability.
+- **Agile Methodology**: Developed using Scrum framework, with task tracking, estimation (Story Points), and sprint planning performed via YouTrack.
 
 ## Getting started
 
